@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="maximumSize">
+       <size>
+        <width>800</width>
+        <height>600</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.545, x2:0.977, y2:0.539773, stop:0 rgba(65, 51, 83, 255), stop:1 rgba(34, 27, 44, 255));</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_appname">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>0</y>
+         <width>201</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>24</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 107, 241);
+background-color:none;</string>
+       </property>
+       <property name="text">
+        <string>&lt;strong&gt;ELITE&lt;/strong&gt; ATM </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_balance">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>180</y>
+         <width>261</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+font: 12pt &quot;Segoe UI&quot;;
+	color: rgb(255, 242, 247);
+background-color: rgb(167, 0, 167);
+border-radius: 30px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(255, 0, 255);
+
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>CHECK BALANCE</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_transfer">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>290</y>
+         <width>261</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+font: 12pt &quot;Segoe UI&quot;;
+	color: rgb(255, 242, 247);
+background-color: rgb(167, 0, 167);
+border-radius: 30px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(255, 0, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>TRANSFER</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_withdraw">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>290</y>
+         <width>261</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+font: 12pt &quot;Segoe UI&quot;;
+	color: rgb(255, 242, 247);
+background-color: rgb(167, 0, 167);
+border-radius: 30px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(255, 0, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>WITHDRAW</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_pin">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>180</y>
+         <width>261</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+font: 12pt &quot;Segoe UI&quot;;
+	color: rgb(255, 242, 247);
+background-color: rgb(167, 0, 167);
+border-radius: 30px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(255, 0, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>CHANGE PIN</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>70</y>
+         <width>781</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Please Select Your Desired Service</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_deposit">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>400</y>
+         <width>261</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+font: 12pt &quot;Segoe UI&quot;;
+	color: rgb(255, 242, 247);
+background-color: rgb(167, 0, 167);
+border-radius: 30px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(255, 0, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>DEPOSIT</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_back1">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>450</y>
+         <width>141</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+border: 0px;
+background-color:none;
+}
+
+QPushButton:hover
+{
+color: rgb(255, 170, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
